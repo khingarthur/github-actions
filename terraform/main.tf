@@ -7,5 +7,5 @@ resource "aws_instance" "server" {
 }
 
 resource "aws_s3_bucket" "name" {
-  bucket        = "practice-bucket"
+  bucket        = "kobby-bucket"
 }
