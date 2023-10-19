@@ -8,4 +8,5 @@ resource "aws_instance" "server" {
 
 resource "aws_s3_bucket" "name" {
   bucket        = "Practice-bucket"
+  region  = "us-east-2"
 }
